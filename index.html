@@ -1,110 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Macintosh</title>
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/all.min.css">
-    <link rel="stylesheet" href="styles/main.css">
-</head>
-<body>
-<!-- header \  header \  header \  header \  header \  header \  header \  header \  header-->
-    <header class="header d-flex flex-column">
-        <div class="container ">
-<!-- nav \  nav \  nav \  nav \  nav \  nav \  nav \  nav \  nav \  nav \  nav \  nav \  nav \ -->
-            <nav class="navbar navbar-expand-lg d-flex justify-content-between">
-                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="fas fa-ellipsis-v"></span>
-                </button>
-                                                        
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav__item">
-                      <a class="nav__link" href="#">home <span class="sr-only"></span></a>
-                    </li>
-                    <li class="nav__item">
-                      <a class="nav__link" href="#">about</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav__link" href="#">work</a>
-                    </li>
-                    <li class="nav__item">
-                      <a class="nav__link" href="#">process</a>
-                    </li>
-                    <li class="nav__item">
-                      <a class="nav__link" href="#">services</a>
-                    </li>
-                    <li class="nav__item">
-                      <a class="nav__link" href="#">testimonials</a>
-                    </li>
-                    <li class="nav__item dropdown">
-                      <a class="nav__link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        contact
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="tel:+998994866969">+99 99 486 69 69</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="t.me/">Telegram</a>
-                        <a class="dropdown-item" href="mailto:">Instagram</a>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-            </nav>
-          </div>
-<!-- header info \  header info \  header info \  header info \  header info \  header info-->
-          <div class="container flex-grow-1 d-flex flex-column justify-content-center">
-            <div class=" row">
-              <div class="">
-                <div class="header__info col-xl-5">
-                    <h1 class="header-info__title">We Design and Develop</h1>
-                    <p class="header-info__text">We are a new design studio based in USA. We have over 
-                        20 years of combined experience, and know a thing or two 
-                        about designing websites and mobile apps.</p>
-                    <a class="header-info__btn" href="#!">contact us</a>
-                  </div>
-              </div>
-            </div>
-          </div>
-          
-    </header>
-    <div class="main">
-<!-- main info \ main info \ main info \ main info \ main info \ main info \ main info \ main info-->
-          <div class="container ">
-            <div class="main__info row d-flex justify-content-center">
-            <div class="col-md-6">
-              <h2 class="main-info__title">Aboute us</h2>
-              <p class="main-info__text">Divide have don't man wherein air fourth. Own itself make have night won't make. A you under Seed appear which good give. Own give air without fowl moveth dry first heaven fruit, dominion she'd won't very all.
-                </p>
-                <img class="main-info__img d-none d-md-block m-auto" src="images/signature.png" alt="">
 
-            </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Macintosh</title>
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/all.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <!-- header \  header \  header \  header \  header \  header \  header \  header \  header-->
+  <header class="header d-flex flex-column">
+    <div class="container ">
+      <!-- nav \  nav \  nav \  nav \  nav \  nav \  nav \  nav \  nav \  nav \  nav \  nav \  nav \ -->
+      <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fas fa-ellipsis-v"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav__item">
+              <a class="nav__link" href="#">home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav__link" href="#">work</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">process</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">services</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">testimonials</a>
+            </li>
+            <li class="nav__item dropdown">
+              <a class="nav__link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                contact
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="tel:+998994866969">+99 99 486 69 69</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="t.me/">Telegram</a>
+                <a class="dropdown-item" href="mailto:">Instagram</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- header info \  header info \  header info \  header info \  header info \  header info-->
+    <div class="container flex-grow-1 d-flex flex-column justify-content-center">
+      <div class=" row">
+        <div class="">
+          <div class="header__info col-xl-5">
+            <h1 class="header-info__title">We Design and Develop</h1>
+            <p class="header-info__text">We are a new design studio based in USA. We have over
+              20 years of combined experience, and know a thing or two
+              about designing websites and mobile apps.</p>
+            <a class="header-info__btn" href="#!">contact us</a>
           </div>
         </div>
-        <div class="main__skills">
-          <div class="container ">
-            <div class="skills__info">
-              
-            </div>
-            <div class="skills__img">
-              <!-- <img src="images/pro_skills.jpg" alt=""> -->
-            </div>
-          </div>
-        </div>
-        
+      </div>
     </div>
 
+  </header>
 
 
+  <main class="main">
+    <!-- main info \ main info \ main info \ main info \ main info \ main info \ main info \ main info-->
+    <div class="container">
+      <div class="main__info row d-flex justify-content-center">
+        <div class="col-md-6">
+          <h2 class="main-info__title">Aboute us</h2>
+          <p class="main-info__text">Divide have don't man wherein air fourth. Own itself make have night won't make. A
+            you under Seed appear which good give. Own give air without fowl moveth dry first heaven fruit, dominion
+            she'd won't very all.
+          </p>
+          <img class="main-info__img d-none d-md-block m-auto" src="images/signature.png" alt="">
+
+        </div>
+      </div>
+    </div>
+    <!-- main skills \ main skills \ main skills \ main skills \ main skills \ main skills \ -->
+
+    <div class="main__skills">
+      <div class="container-fluid ">
+        <div class="row">
+          <div class="skills__info col-md-6">
+            <h2 class="skills-info__title">Professional Skills</h2>
+
+            <h3 class="skills-info__subtitle">UI/UX Design 75%</h3>
+            <div class="skills-info__prss skill__75prs d-block"></div>
+
+            <h3 class="skills-info__subtitle">web development 90%</h3>
+            <div class="skills-info__prss skill__90prs d-block"></div>
+
+            <h3 class="skills-info__subtitle">marketing 65%</h3>
+            <div class="skills-info__prss skill__65prs d-block"></div>
+          </div>
+          <img class="col-12 col-md-6 skills__img" src="images/pro_skills.jpg" alt="">
+        </div>
+      </div>
+
+    </div>
+
+  <!-- works  \ works  \ works  \ works  \ works  \ works  \ works  \ works  \ works  \ works  \  -->
+
+    <div class="main__works">
+      <div class="container">
+        <div class="working__times row ">
+          <div class="main-work__item col-6 col-sm-3 d-flex flex-column align-items-center align-content-center">
+            <span class="work__icon fal fa-briefcase"></span>
+            <p class="work__num">548</p>
+            <p class="work__text">projects completed</p>
+          </div>
+          <div class="main-work__item col-6 col-sm-3 d-flex flex-column align-items-center">
+            <span class="work__icon fal fa-briefcase"></span>
+            <p class="work__num">548</p>
+            <p class="work__text">projects completed</p>
+          </div>
+          <div class="main-work__item col-6 col-sm-3 d-flex flex-column align-items-center">
+            <span class="work__icon fal fa-briefcase"></span>
+            <p class="work__num">548</p>
+            <p class="work__text">projects completed</p>
+          </div>
+          <div class="main-work__item col-6 col-sm-3 d-flex flex-column align-items-center">
+            <span class="work__icon fal fa-briefcase"></span>
+            <p class="work__num">548</p>
+            <p class="work__text">projects completed</p>
+          </div>
+        </div>
+      </div>
+      <div class="main-works__gallery d-flex flex-wrap justify-content-center">
+        <div class="main-gallery__imgs">
+          <img class="main-gallery__img" src="images/main_gallery/1work.jpg" alt="">
+          <a href="#!" class="main-gallery__link"><span class="fal fa-eye"></span></a>
+        </div>
+        <div class="main-gallery__imgs">
+          <img class="main-gallery__img" src="images/main_gallery/2work.jpg" alt="">
+          <a href="#!" class="main-gallery__link"><span class="fal fa-eye"></span></a>
+        </div>
+        <div class="main-gallery__imgs">
+          <img class="main-gallery__img" src="images/main_gallery/3work.jpg" alt="">
+          <a href="#!" class="main-gallery__link"><span class="fal fa-eye"></span></a>
+        </div>
+        <div class="main-gallery__imgs">
+          <img class="main-gallery__img" src="images/main_gallery/4work.jpg" alt="">
+          <a href="#!" class="main-gallery__link"><span class="fal fa-eye"></span></a>
+        </div>
+        <div class="main-gallery__imgs">
+          <img class="main-gallery__img" src="images/main_gallery/5work.jpg" alt="">
+          <a href="#!" class="main-gallery__link"><span class="fal fa-eye"></span></a>
+        </div>
+        <div class="main-gallery__imgs">
+          <img class="main-gallery__img" src="images/main_gallery/6work.jpg" alt="">
+          <a href="#!" class="main-gallery__link"><span class="fal fa-eye"></span></a>
+        </div>
+        <div class="main-gallery__imgs">
+          <img class="main-gallery__img" src="images/main_gallery/7work.jpg" alt="">
+          <a href="#!" class="main-gallery__link"><span class="fal fa-eye"></span></a>
+        </div>
+        <div class="main-gallery__imgs">
+          <img class="main-gallery__img" src="images/main_gallery/8work.jpg" alt="">
+          <a href="#!" class="main-gallery__link"><span class="fal fa-eye"></span></a>
+        </div>
+      </div>
+      <h4 class="main-gallery__more"> load more work</h4>
+    </div>
+    <div class="container">
+    <div class="main__info main__info-works">
+        <div class=" row justify-content-center">
+          <div class="col-md-6">
+            <h2 class="main-info__title works__title">Our Work Process</h2>
+            <p class="main-info__text works__text">Was years it seasons was there form he in in them together over that, 
+              third sixth gathered female creeping bearing behold years.
+            </p>
+          </div>
+          <img class="works__img col-12" src="images/tipa_video.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- main services \ main services \ main services \ main services \ main services \ main services \ main services \ -->
+    <div class="main__services d-flex align-content-center justify-content-center">
+      <div class="container">
+      <div class="row">
+          <div class="main-service__box col-sm-6 col-xl-3 d-flex flex-column align-items-center">
+            <span class="main-service__icon fal fa-gem"></span>
+            <h4 class="main-service__title">ui / ux design</h4>
+            <p class="main-service__text">Be set fourth land god darkness 
+              make it wherein own</p>
+          </div>
+          <div class="main-service__box col-sm-6 col-xl-3 d-flex flex-column align-items-center">
+            <span class="main-service__icon fal fa-bow-arrow"></span>
+            <h4 class="main-service__title">web development</h4>
+            <p class="main-service__text">A she'd them bring void moving 
+              third she'd kind fill</p>
+          </div>
+          <div class="main-service__box col-sm-6 col-xl-3 d-flex flex-column align-items-center">
+            <span class="main-service__icon far fa-mobile"></span>
+            <h4 class="main-service__title">app / mobile</h4>
+            <p class="main-service__text">Dominion man second spirit he,
+              earth they're creeping</p>
+          </div>
+          <div class="main-service__box col-sm-6 col-xl-3 d-flex flex-column align-items-center">
+            <span class="main-service__icon fal fa-gamepad-alt"></span>
+            <h4 class="main-service__title">game design</h4>
+            <p class="main-service__text">Morning his saying moveth it 
+              multiply appear life be</p>
+          </div>
+          <div class="main-service__box col-sm-6 col-xl-3 d-flex flex-column align-items-center">
+            <span class="main-service__icon fal fa-plane"></span>
+            <h4 class="main-service__title">SEO / marketing</h4>
+            <p class="main-service__text">Give won't after land fill creeping 
+              meat you, may</p>
+          </div>
+          <div class="main-service__box col-sm-6 col-xl-3 d-flex flex-column align-items-center">
+            <span class="main-service__icon fal fa-star"></span>
+            <h4 class="main-service__title">photography</h4>
+            <p class="main-service__text">Creepeth one seas cattle grass 
+              give moving saw give</p>
+          </div>
+          <div class="main-service__box col-sm-6 col-xl-3 d-flex flex-column align-items-center">
+            <span class="main-service__icon fal fa-wand-magic"></span>
+            <h4 class="main-service__title">graphic design</h4>
+            <p class="main-service__text">Open, great whales air rule for, 
+              fourth life whales</p>
+          </div>
+          <div class="main-service__box col-sm-6 col-xl-3 d-flex flex-column align-items-center">
+            <span class="main-service__icon fal fa-fill-drip"></span>
+            <h4 class="main-service__title">illustrations</h4>
+            <p class="main-service__text">Whales likeness hath, man kind 
+              for them air two won't</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- main carousel \ main carousel \ main carousel \ main carousel \ main carousel \ main carousel \ main carousel \ -->
+    <div class="main__carousel">
+      <div class="container">
+        <div class="row justify-content-center align-content-center">
+          <div class="col-md-8 ">
+            <div id="carouselExampleIndicators" class="main-carousel__content carousel slide" data-ride="carousel">
+              
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="main-carousel__item">
+                    <p class="main-carousel__item_text">“ Outstanding job and exceeded all expectations. It was a pleasure 
+                      to work with them on a sizable first project and am looking 
+                      forward to start the next one asap.”</p>
+                    <h4 class="main-carousel__item_subtitle">Michael Hopkins</h4>
+      
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="main-carousel__item">
+                    <p class="main-carousel__item_text">“ Outstanding job and exceeded all expectations. It was a pleasure 
+                      to work with them on a sizable first project and am looking 
+                      forward to start the next one asap.”</p>
+                    <h4 class="main-carousel__item_subtitle">Michael Hopkins</h4>
+      
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="main-carousel__item">
+                    <p class="main-carousel__item_text">“ Outstanding job and exceeded all expectations. It was a pleasure 
+                      to work with them on a sizable first project and am looking 
+                      forward to start the next one asap.”</p>
+                    <h4 class="main-carousel__item_subtitle">Michael Hopkins</h4>
+      
+                  </div>
+                </div>
+              </div>
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+    </div> 
+<!-- main clients \ main clients \ main clients \ main clients \ main clients \ main clients \ main clients \ main clients -->
+    <div class="main__clients">
+      <div class="container d-flex flex-wrap justify-content-around align-items-center">
+        <img class="main-clients__img" src="images/icons/1.png" alt="">
+        <img class="main-clients__img" src="images/icons/2.png" alt="">
+        <img class="main-clients__img" src="images/icons/3.png" alt="">
+        <img class="main-clients__img" src="images/icons/4.png" alt="">
+      </div>
+    </div>
+<!-- main forms \ main forms \ main forms \ main forms \ main forms \ main forms \ main forms \ main forms \ main forms \ -->
+    <div class="main__forms">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="main-form__info col-md-6 d-flex flex-wrap flex-column justify-content-center align-items-center">
+            <h2 class="main-forms__title">Need a Project?</h2>
+            <p class="main-form__text">Let us know what you're looking for in an agency. We'll take a look and see 
+              if this could be the start of something beautiful.</p>
+            <p class="main-form__text">Let us know what you're looking for in an agency. We'll take a look and see 
+              if this could be the start of something beautiful.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <form class="main__form col-12 col-sm-8 d-flex flex-wrap justify-content-sm-between" action="">
+            <label class="main-form__items" for="">
+              <input class="main-form__placeholder main-form__350" placeholder="Your name" type="text">
+            </label>
+            <label class="main-form__items" for="">
+              <input class="main-form__placeholder main-form__350" placeholder="Your email" type="email">
+            </label>
+            <label class="main-form__items w-100" for="">
+              <input class="main-form__placeholder main-form__full w-100" placeholder="Your title" type="text">
+            </label>
+            <label class="w-100" for="">
+              <textarea class="main-form__placeholder w-100" name="" id="" cols="30" rows="10" placeholder="Your Comment"></textarea>
+            </label>
+            <button class="main-form__submit_btn m-auto" type="reset" >Sent message</button>
+          </form>
+          </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    
+  </footer>
 
 
-
-
-    <script src="js/jquery.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
